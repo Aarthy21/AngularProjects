@@ -2,7 +2,7 @@
     <p>Parent</p>
     Message:{{message}}<br>
     UserName:<strong>{{userName}}</strong>
-    <input type="text" placeholder="Update Name" #uname>
+    <input type="text" placeholder="UserName" #uname>
     <button (click)="UpdateVal(uname)">Update</button>
     <app-child (MessageEvent)="receiveMsg($event)"></app-child>
    
